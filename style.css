@@ -1,0 +1,16 @@
+#email_validation, #name_validation {
+    display:none;
+}
+
+.required:after {
+  content:'*';
+  color:red;
+}
+
+.error {
+  background-color:#FFDFDF;
+  color:red;
+}
+.row {
+  margin:5px;
+}
